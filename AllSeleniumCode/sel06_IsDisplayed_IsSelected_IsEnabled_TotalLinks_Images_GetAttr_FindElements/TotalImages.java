@@ -16,13 +16,13 @@ public class TotalImages {
 	=>
 	
 	Q.What is the difference between findElement and findElemnts?
-	=>findElement is used for single web element and fineElements is used for multiple webelements.Whenever we want to interact with multiple elements use fineElements.
+	=>findElement is used for single web element and fineElements is used for multiple webelements.Whenever we want to interact with multiple web elements use fineElements.
 	
 	Q.Waht is the return type of fineElement and findElements method?
 	=> return type of fineElement is WebElemnt and return type of findElements is List<WebElement>. Bracket means generics.
 	
 	Q.why its giving List<WebElement> not a static array bcoz images count is dynamic in nature today you are gtting 200 images tomorrow might be 800 images or nest you will get only 50 images
-	so selenium guys given the List<WebElement> bcoz its a dynamic collection.The dynamic array not the static array.more and more iages coming it will keep the storing images 
+	so selenium guys given the List<WebElement> bcoz its a dynamic collection.The dynamic array not the static array.more and more images coming it will keep the storing images 
 	in this particular list without any problem.otehrwise you will start giving ArrayIndexOutOfBoundException.thats why they are not returning the static array here.
 	
 	Q.List is a order base or non-order based collection?
