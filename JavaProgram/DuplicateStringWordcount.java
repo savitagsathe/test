@@ -9,11 +9,14 @@ public class DuplicateStringWordcount {
 		 // Input string
 	     String input = "pythpn is not best language but java with selenium is a language taking interview of selenium";
 
-	     // Convert input string to lower case to make the comparison case-insensitive
-	     input = input.toLowerCase();
+	      Convert input string to lower case to make the comparison case-insensitive
+	    // input = input.toLowerCase();
 
 	     // Split the input string into words
 	     String words[] = input.split("\\s+");
+	      //For Q2.Java program to find duplicate words in a string array: String[] arr = {"India", "England", "China", "US", "UK", "India", "China"};
+	     // use same code but use following array declaration and comment above code
+	      //String[] words = {"India", "England", "China", "US", "UK", "India", "China"};
 
 	  // Use a HashMap to count the occurrences of each word
 	     HashMap<String, Integer> wordCount=new HashMap<String, Integer>();
